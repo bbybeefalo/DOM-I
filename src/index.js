@@ -56,6 +56,11 @@ const ctaButton = document.querySelector("button");
 const midHeaders = document.querySelectorAll("h4");
 const midContent = document.querySelectorAll(".text-content p");
 
+const contactHead = document.querySelector(".contact h4");
+const contactAdd = document.querySelectorAll(".contact p");
+
+const footer = document.querySelector("footer a");
+
 
 navLinks[0].textContent = siteContent["nav"]["nav-item-1"];
 navLinks[1].textContent = siteContent["nav"]["nav-item-2"];
@@ -82,3 +87,10 @@ midContent[1].textContent = siteContent["main-content"]["about-content"];
 midContent[2].textContent = siteContent["main-content"]["services-content"];
 midContent[3].textContent = siteContent["main-content"]["product-content"];
 midContent[4].textContent = siteContent["main-content"]["vision-content"];
+
+contactHead.textContent = siteContent["contact"]["contact-h4"];
+contactAdd[0].textContent = siteContent["contact"]["address"];
+contactAdd[1].textContent = siteContent["contact"]["phone"];
+contactAdd[2].textContent = siteContent["contact"]["email"];
+
+footer.textContent = siteContent["footer"]["copyright"];
