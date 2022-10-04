@@ -54,7 +54,7 @@ const ctaHeader = document.querySelector(".cta h1");
 const ctaButton = document.querySelector("button");
 
 const midHeaders = document.querySelectorAll("h4");
-const midContent = document.querySelectorAll("text-content p");
+const midContent = document.querySelectorAll(".text-content p");
 
 
 navLinks[0].textContent = siteContent["nav"]["nav-item-1"];
@@ -78,3 +78,7 @@ midHeaders[3].textContent = siteContent["main-content"]["product-h4"];
 midHeaders[4].textContent = siteContent["main-content"]["vision-h4"];
 
 midContent[0].textContent = siteContent["main-content"]["features-content"];
+midContent[1].textContent = siteContent["main-content"]["about-content"];
+midContent[2].textContent = siteContent["main-content"]["services-content"];
+midContent[3].textContent = siteContent["main-content"]["product-content"];
+midContent[4].textContent = siteContent["main-content"]["vision-content"];
