@@ -94,3 +94,7 @@ contactAdd[1].textContent = siteContent["contact"]["phone"];
 contactAdd[2].textContent = siteContent["contact"]["email"];
 
 footer.textContent = siteContent["footer"]["copyright"];
+
+navLinks.forEach(navLinks => navLinks.className = "italic");
+
+footer.className = "bold";
