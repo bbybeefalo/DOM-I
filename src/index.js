@@ -40,3 +40,41 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+
+/* ______________________________ */
+
+const navLinks = document.querySelectorAll("nav a");
+
+const logoImg = document.querySelector("#logo-img");
+const ctaImg = document.querySelector("#cta-img");
+const accentImg = document.querySelector("#middle-img");
+
+const ctaHeader = document.querySelector(".cta h1");
+const ctaButton = document.querySelector("button");
+
+const midHeaders = document.querySelectorAll("h4");
+const midContent = document.querySelectorAll("text-content p");
+
+
+navLinks[0].textContent = siteContent["nav"]["nav-item-1"];
+navLinks[1].textContent = siteContent["nav"]["nav-item-2"];
+navLinks[2].textContent = siteContent["nav"]["nav-item-3"];
+navLinks[3].textContent = siteContent["nav"]["nav-item-4"];
+navLinks[4].textContent = siteContent["nav"]["nav-item-5"];
+navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
+
+logoImg.src = siteContent["images"]["logo-img"];
+ctaImg.src = siteContent["images"]["cta-img"];
+accentImg.src = siteContent["images"]["accent-img"];
+
+ctaHeader.textContent = siteContent["cta"]["h1"];
+ctaButton.textContent = siteContent["cta"]["button"];
+
+midHeaders[0].textContent = siteContent["main-content"]["features-h4"];
+midHeaders[1].textContent = siteContent["main-content"]["about-h4"];
+midHeaders[2].textContent = siteContent["main-content"]["services-h4"];
+midHeaders[3].textContent = siteContent["main-content"]["product-h4"];
+midHeaders[4].textContent = siteContent["main-content"]["vision-h4"];
+
+midContent[0].textContent = siteContent["main-content"]["features-content"];
